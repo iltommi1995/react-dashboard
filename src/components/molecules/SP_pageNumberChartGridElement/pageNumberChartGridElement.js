@@ -1,9 +1,9 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Chart from '../pageNumberChart/Chart';
+import Chart from '../SP_pageNumberChart/pageNumberChart';
 
-import "./chartGridElement.css"
+import "./pageNumberChartGridElement.css"
 
 export default function ChartGridElement(props) {
     return (

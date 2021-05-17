@@ -54,6 +54,7 @@ export default function NavDrawer(props) {
         <Drawer
         variant={ww < 700 ? "temporary" : "permanent"}
         className="navDrawerCustom"
+        ModalProps={{ onBackdropClick: props.toggler }}
         classes={{
           paper: clsx(classes.drawerPaper, !props.open && classes.drawerPaperClose),
         }}

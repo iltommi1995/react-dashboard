@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import TotalViews from '../totalViews/totalViews';
+import TotalViews from '../SP_totalViews/totalViews';
 
 import './totalViewsGridElement.css'
 

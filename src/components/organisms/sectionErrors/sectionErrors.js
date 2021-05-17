@@ -3,7 +3,7 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Copyright from '../../molecules/copyright/copyright'
 import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
-import ErrorsTableGridElement from '../../molecules/errorsTableGridElement/errorsTableGridElement';
+import ErrorsTableGridElement from '../../molecules/SE_errorsTableGridElement/errorsTableGridElement';
 
 import './sectionErrors.css'
 export default function SectionErrors (props) {

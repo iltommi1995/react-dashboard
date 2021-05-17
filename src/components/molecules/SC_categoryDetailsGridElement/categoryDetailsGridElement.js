@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 
 
 import './categoryDetailsGridElement.css'
-import CategoryDetailsMostViewedTable from '../categoryDetailsMostViewedTable/categoryDetailsMostViewedTable';
+import CategoryDetailsMostViewedTable from '../SC_categoryDetailsMostViewedTable/categoryDetailsMostViewedTable';
 
 
 

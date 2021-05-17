@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 import './errorsTableGridElement.css'
-import ErrorsTable from '../errorsTable/errorsTable';
+import ErrorsTable from '../SE_errorsTable/errorsTable';
 
 
 

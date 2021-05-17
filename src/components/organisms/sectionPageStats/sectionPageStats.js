@@ -4,10 +4,10 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Copyright from '../../molecules/copyright/copyright'
 import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
-import ChartGridElement from '../../molecules/chartGridElement/chartGridElement';
-import TotalViewsGridElement from '../../molecules/totalViewsGridElement/totalViewsGridElement';
+import PageNumberChartGridElement from '../../molecules/SP_pageNumberChartGridElement/pageNumberChartGridElement';
+import TotalViewsGridElement from '../../molecules/SP_totalViewsGridElement/totalViewsGridElement';
 import "./sectionPageStats.css"
-import MostViewedGridElement from '../../molecules/mostViewedGridElement/mostViewedGridElement';
+import MostViewedGridElement from '../../molecules/SP_mostViewedGridElement/mostViewedGridElement';
 
 export default function SectionPageStats(props) {
     return (
@@ -19,7 +19,7 @@ export default function SectionPageStats(props) {
             <SectionTitle sectionName={props.sectionName} />
 
             {/* Grafico della sezione */}
-            <ChartGridElement data={props.chartData} title={props.chartTitle}/>
+            <PageNumberChartGridElement data={props.chartData} title={props.chartTitle}/>
 
             {/* Visualizzazioni totali della sezione */}
             <TotalViewsGridElement data={props.totalViewsData} />
@@ -31,9 +31,6 @@ export default function SectionPageStats(props) {
             <Copyright sx={{ pt: 4 }} />
 
           </Grid>
-
-          
-
         </Container>
       );
 }

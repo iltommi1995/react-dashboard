@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Title from '../../atoms/gridElementTitle/Title';
-import './chart.css'
+import './pageNumberChart.css'
 
 export default class Chart extends React.PureComponent {
   render () {

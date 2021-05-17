@@ -5,7 +5,7 @@ import Title from '../../atoms/gridElementTitle/Title';
 
 
 import './mostViewedGridElement.css'
-import MostViewedTable from '../mostViewedTable/mostViewedTable';
+import MostViewedTable from '../SP_mostViewedTable/mostViewedTable';
 
 
 

@@ -6,9 +6,9 @@ import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
 
 
 import './sectionCategories.css'
-import SearchBarGridElement from '../../molecules/searchBarGridElement/searchBarGridElement';
-import MostViewedCategoriesGridElement from '../../molecules/mostViewedCategoriesGridElement/mostViewedCategoriesGridElement';
-import CategoryDetailsGridElement from '../../molecules/categoryDetailsGridElement/categoryDetailsGridElement';
+import SearchBarGridElement from '../../molecules/SC_searchBarGridElement/searchBarGridElement';
+import MostViewedCategoriesGridElement from '../../molecules/SC_mostViewedCategoriesGridElement/mostViewedCategoriesGridElement';
+import CategoryDetailsGridElement from '../../molecules/SC_categoryDetailsGridElement/categoryDetailsGridElement';
 
 
 

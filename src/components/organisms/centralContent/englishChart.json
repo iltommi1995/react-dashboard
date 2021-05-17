@@ -1,0 +1,37 @@
+[
+    {
+        "date": "9-05-2021",
+        "extracted": 700000,
+        "translated": 400000
+    },
+    {
+        "date": "10-05-2021",
+        "extracted": 700000,
+        "translated": 400000
+    },
+    {
+        "date": "11-05-2021",
+        "extracted": 770000,
+        "translated": 440000
+    },
+    {
+        "date": "12-05-2021",
+        "extracted": 785000,
+        "translated": 500000
+    },
+    {
+        "date": "13-05-2021",
+        "extracted": 835000,
+        "translated": 600000
+    },
+    {
+        "date": "14-05-2021",
+        "extracted": 875000,
+        "translated": 630000
+    },
+    {
+        "date": "15-05-2021",
+        "extracted": 875000,
+        "translated": 630000
+    }
+]

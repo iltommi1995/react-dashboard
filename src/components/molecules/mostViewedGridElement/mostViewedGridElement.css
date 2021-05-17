@@ -1,0 +1,10 @@
+.most-viewed-grid-element {
+    grid-area: 6/9/12/13;
+    max-width: 100%!important;
+    height: 100%;
+}
+
+.most-viewed-paper {
+    height: 100%;
+    max-height: 100%;
+}

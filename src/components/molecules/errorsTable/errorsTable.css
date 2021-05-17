@@ -1,0 +1,28 @@
+.table-container {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.errors-table-container {
+    max-height: 90%;
+    height: 90%;
+}
+
+@media screen and (max-width: 900px) {
+    .table-container > .MuiTableContainer-root {
+        height: 85%;
+    }
+    .table-container > .MuiTablePagination-root {
+        width: 65%;
+        height: 15%;
+    }
+
+    .table-container > .MuiTablePagination-root >  .MuiToolbar-root {
+        flex-wrap: wrap;
+    }
+
+    .MuiIconButton-root {
+        padding: 0 12px!important;
+    }
+  }

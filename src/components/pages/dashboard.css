@@ -1,0 +1,29 @@
+.containerBox {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.toolbar {
+    padding-right: 24;
+}
+
+.toolbarIcon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 8px;
+    height: 64px;
+}
+
+@media screen and (min-width: 600px) {
+    .toolbarIcon {
+      height: 64px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .toolbarIcon {
+      height: 56px;
+    }
+}

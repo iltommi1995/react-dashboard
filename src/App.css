@@ -2,37 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Generali */
+
+.paper-custom {
+padding: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar {
+width: 6px!important;
+height: 6px!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body::-webkit-scrollbar-thumb {
+background: #9e9e9e!important;
+border-radius: 15px!important;
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar-thumb:hover{
+background: #787878!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::-webkit-scrollbar-track{
+background: #ffffff!important;
+border-radius: 10px!important;
+box-shadow: inset 7px 10px 12px #f0f0f0!important;
 }

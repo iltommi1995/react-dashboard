@@ -1,0 +1,4 @@
+.errors-table-grid-element {
+    grid-area: 2/1/12/13;
+    max-width: 100%!important;
+}

@@ -1,0 +1,27 @@
+.central-section-container {
+    height: 100%!important;
+}
+
+.grid-container-custom {
+    display: grid!important;
+    height: 100%!important;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container-custom {
+        height: fit-content;
+        grid-template: repeat(12, 50px) / repeat(12, 1fr);
+        grid-auto-rows: 50px;
+        overflow-y: scroll;
+    }
+    /* Chrome, Safari and Opera */
+    .grid-container-custom::-webkit-scrollbar {
+        display: none;
+      }
+      
+    .grid-container-custom  {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }

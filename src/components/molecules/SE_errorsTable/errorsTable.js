@@ -43,6 +43,7 @@ export default function ErrorsTable(props) {
                                         key={column.id}
                                         align={column.align}
                                         style={{ minWidth: column.minWidth }}
+                                        className="table-cell-header-custom"
                                     >
                                         {column.label}
                                     </TableCell>
@@ -57,7 +58,7 @@ export default function ErrorsTable(props) {
                                             columns.map((column) => {
                                                 let value = row[column.id];
                                                 return (
-                                                    <TableCell key={column.id}>
+                                                    <TableCell key={column.id} className="table-cell-custom">
                                                         {column.id === 'title' ? <a href={row['url']} target="_blank" rel="noreferrer">{value}</a> : value}
                                                     </TableCell>
                                                 );

@@ -43,6 +43,7 @@ export default function MostViewedCategoriesGridElement(props) {
                                 {columns.map((column) => (
                                     <TableCell
                                         key={column.id}
+                                        className="table-cell-header-custom"
                                     >
                                         {column.label}
                                     </TableCell>
@@ -52,14 +53,14 @@ export default function MostViewedCategoriesGridElement(props) {
                         <TableBody>
                             {cat.map(row => {
                                 return (
-                                    <TableRow hover role="checkbox" tabIndex={-1} key={row.id}>
+                                    <TableRow hover role="checkbox" tabIndex={-1} key={row.id} style={{cursor:"pointer"}} onClick={() => {props.selectCategory(row)}}>
                                         {
                                             columns.map((column) => {
                                                 let value = row[column.id];
 
                                                 if (column.id === "name") {
                                                     return (
-                                                        <TableCell key={column.id} style={{cursor:"pointer", color:"red"}} onClick={() => {props.selectCategory(row)}}>
+                                                        <TableCell key={column.id} className="table-cell-custom" >
                                                             {value}
                                                         </TableCell> 
                                                         
@@ -67,7 +68,7 @@ export default function MostViewedCategoriesGridElement(props) {
                                                 }
                                                 else {
                                                     return (
-                                                        <TableCell key={column.id}>
+                                                        <TableCell key={column.id} className="table-cell-custom">
                                                             {value}
                                                         </TableCell> 
                                                     );

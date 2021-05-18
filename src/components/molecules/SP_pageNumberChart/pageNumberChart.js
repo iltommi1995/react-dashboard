@@ -24,8 +24,8 @@ export default class Chart extends React.PureComponent {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Line type="monotone" dataKey="extracted" stroke="#8884d8" activeDot={{ r: 8 }} />
-            <Line type="monotone" dataKey="translated" stroke="#82ca9d" />
+            <Line type="monotone" dataKey="extracted" stroke="#ad6302" activeDot={{ r: 8 }} />
+            <Line type="monotone" dataKey="translated" stroke="#0F172C" />
           </LineChart>
         </ResponsiveContainer>
           

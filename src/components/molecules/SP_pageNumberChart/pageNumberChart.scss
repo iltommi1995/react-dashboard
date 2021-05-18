@@ -1,4 +1,11 @@
+@import "./../../../utils/variables.scss";
+
 .chart-custom {
     width: 100%!important;
     height: 100%!important;
+}
+
+.recharts-cartesian-axis-tick-value {
+    font-family: $pri-font;
+    font-size: 0.7em;
 }

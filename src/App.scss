@@ -18,18 +18,21 @@ body {
 h2 {
   color: $text-color!important;
   font-family: $sec-font!important;
+  font-size: 1.9em;
 }
 
 /* Grid elements titles */
 h3 {
   color: $sec-color!important;
   font-family: $sec-font!important;
+  font-size: 1.6em!important;
 }
 
 /* h4 elements */
 h4 {
   color: $text-color!important;
   font-family: $sec-font!important;
+  font-size: 1.2em!important;
 }
 
 /* Text paragraphs */
@@ -53,6 +56,8 @@ ul li {
   font-family: $pri-font!important;
 }
 
+
+/* Hyperlinks */
 a {
   text-decoration: none;
   font-family: $pri-font!important;
@@ -66,9 +71,17 @@ a {
   }
 }
 
-/* Hyperlinks */
+/* Table custom */
+.table-cell-header-custom {
+  font-weight: bold!important;
+  font-family: $pri-font!important;
+  font-size: 0.9em!important;
+}
 
-
+.table-cell-custom {
+  font-family: $pri-font!important;
+  font-size: 0.9em!important;
+}
 
 
 /* Generali */

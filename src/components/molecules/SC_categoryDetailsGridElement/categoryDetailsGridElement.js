@@ -19,8 +19,8 @@ export default function CategoryDetailsGridElement(props) {
                 <GridElementTitle children={props.category == null ? 'No category selected': `${props.category.name}`} />
                 <div className="category-details-container">
                     <div className="category-details-info-box">
-                            <div>Pages: {props.category == null ? "no category selected" : props.category.pageNumber}</div>
-                            <div>Views: {props.category == null ? "no category selected" : props.category.views}</div>
+                            <p>Pages: {props.category == null ? "no category selected" : props.category.pageNumber}</p>
+                            <p>Views: {props.category == null ? "no category selected" : props.category.views}</p>
                     </div>
 
                     <div className="category-details-most-viewed">

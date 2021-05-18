@@ -50,7 +50,7 @@ export default function MostViewedCategoriesTable(props) {
 
                                                 if (column.id === "name") {
                                                     return (
-                                                        <TableCell key={column.id} className="table-cell-custom" >
+                                                        <TableCell key={column.id} className="table-cell-custom table-cell-custom-categories" >
                                                             {value}
                                                         </TableCell> 
                                                         

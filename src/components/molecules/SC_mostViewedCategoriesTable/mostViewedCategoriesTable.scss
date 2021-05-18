@@ -1,4 +1,14 @@
+@import "../../../utils/variables.scss";
+
 .most-viewed-categories-grid-container {
     max-height: 90%;
     height: 90%;
+}
+
+.table-cell-custom-categories {
+    color: $third-color!important;
+    transition: all 0.3s;
+    &:hover {
+        color: $sec-color!important;
+    }
 }

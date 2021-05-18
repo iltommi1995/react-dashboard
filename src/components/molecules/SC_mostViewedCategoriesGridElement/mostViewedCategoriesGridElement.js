@@ -8,9 +8,9 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Title from "../../atoms/gridElementTitle/Title"
+import GridElementTitle from "../../atoms/gridElementTitle/gridElementTitle"
 
-import './mostViewedCategoriesGridElement.css'
+import './mostViewedCategoriesGridElement.scss'
 
 const columns = [
     { id: 'name', label: 'Category\u00a0name' },
@@ -33,9 +33,9 @@ export default function MostViewedCategoriesGridElement(props) {
         <Grid item className="most-viewed-categories-grid-element">
             <Paper
                 sx={{ p: 2, display: 'flex', flexDirection: 'column', height: 240 }}
-                className="table-container"
+                className="paper-custom"
             >
-                <Title children="Categorie più viste" />
+                <GridElementTitle children="Most viewed categories" />
                 <TableContainer className={classes.container}>
                     <Table stickyHeader aria-label="sticky table">
                         <TableHead>

@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-import './searchBarGridElement.css'
+import './searchBarGridElement.scss'
 
 export default function SearchBarGridElement(props) {
     //  Boolean per vedere se è aperto il box delle opzioni

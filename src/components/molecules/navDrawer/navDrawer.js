@@ -7,10 +7,10 @@ import Divider from '@material-ui/core/Divider';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 
-import './navDrawer.css'
 import NavErrorsListItems from '../navErrorsListItems/navErrorsListItems';
 import NavCategoriesListItems from '../navCategoriesListItems/navCategoriesListItems';
 import NavPagesStasListItems from '../navPagesStatsListItems/navPagesStasListItems';
+import './navDrawer.scss'
 
 const drawerWidth = 240;
 
@@ -53,7 +53,7 @@ export default function NavDrawer(props) {
     return(
         <Drawer
         variant={ww < 700 ? "temporary" : "permanent"}
-        className="navDrawerCustom"
+        className="nav-drawer-custom"
         ModalProps={{ onBackdropClick: props.toggler }}
         classes={{
           paper: clsx(classes.drawerPaper, !props.open && classes.drawerPaperClose),
@@ -61,9 +61,9 @@ export default function NavDrawer(props) {
         open={props.open}
       >
         {/* Icona per chiudere menu */}
-        <div className="toolbarIcon">
+        <div className="toolbar-icon">
           <IconButton onClick={props.toggler}>
-            <ChevronLeftIcon />
+            <ChevronLeftIcon className="toolbar-icon-svg" />
           </IconButton>
         </div>
         <Divider />

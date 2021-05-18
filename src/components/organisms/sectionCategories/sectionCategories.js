@@ -5,7 +5,7 @@ import Copyright from '../../molecules/copyright/copyright'
 import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
 
 
-import './sectionCategories.css'
+import './sectionCategories.scss'
 import SearchBarGridElement from '../../molecules/SC_searchBarGridElement/searchBarGridElement';
 import MostViewedCategoriesGridElement from '../../molecules/SC_mostViewedCategoriesGridElement/mostViewedCategoriesGridElement';
 import CategoryDetailsGridElement from '../../molecules/SC_categoryDetailsGridElement/categoryDetailsGridElement';
@@ -23,9 +23,9 @@ export default function SectionCategories(props) {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} className={props.sectionClass + " central-error-section-container"} style={{ display: props.initialDisplay }}>
+    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} className={props.sectionClass + " central-categories-section-container"} style={{ display: props.initialDisplay }}>
       {/* Griglia in cui sistemare gli elementi */}
-      <Grid container spacing={3} className="grid-container-error-custom">
+      <Grid container spacing={3} className="grid-container-categories-custom">
 
         {/* Titolo della sezione */}
         <SectionTitle sectionName={props.sectionName} />

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Title from '../../atoms/gridElementTitle/Title';
+import GridElementTitle from '../../atoms/gridElementTitle/gridElementTitle';
 
-import './totalViews.css'
+import './totalViews.scss'
 
 
 function createDateToday() {
@@ -18,7 +18,7 @@ function createDateToday() {
 export default function TotalViews(props) {
   return (
     <React.Fragment>
-      <Title>Total views</Title>
+      <GridElementTitle>Total views</GridElementTitle>
       <Typography component="h5" className="total-views">
         {props.data.views} <br/>
         <span className="total-views-pages">on {props.data.pages} pages</span>

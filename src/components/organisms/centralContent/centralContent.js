@@ -2,7 +2,7 @@ import React from 'react'
 import Box from '@material-ui/core/Box';
 
 
-import "./centralContent.css"
+import "./centralContent.scss"
 
 // Dati dei grafici
 

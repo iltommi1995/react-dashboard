@@ -1,0 +1,18 @@
+.most-viewed-grid-element {
+    grid-area: 6/9/12/13;
+    max-width: 100%!important;
+    height: 100%;
+
+    @media screen and (max-width: 1100px) {
+        grid-area: 6/9/12/13;
+    }
+    
+    @media screen and (max-width: 900px) {
+        grid-area: 13/1/20/13;
+    }
+    
+    .most-viewed-paper {
+        height: 100%;
+        max-height: 100%;
+    }
+}

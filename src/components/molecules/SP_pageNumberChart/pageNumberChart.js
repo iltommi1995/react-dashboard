@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import Title from '../../atoms/gridElementTitle/Title';
-import './pageNumberChart.css'
+import GridElementTitle from '../../atoms/gridElementTitle/gridElementTitle';
+import './pageNumberChart.scss'
 
 export default class Chart extends React.PureComponent {
   render () {
     return (
       <React.Fragment>
-        <Title>{this.props.title}</Title>
+        <GridElementTitle>{this.props.title}</GridElementTitle>
         <ResponsiveContainer width="100%" height="90%" className="chart-container">
           <LineChart
             className="chart-custom"

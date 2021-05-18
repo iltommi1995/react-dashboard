@@ -5,7 +5,7 @@ import Copyright from '../../molecules/copyright/copyright'
 import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
 import ErrorsTableGridElement from '../../molecules/SE_errorsTableGridElement/errorsTableGridElement';
 
-import './sectionErrors.css'
+import './sectionErrors.scss'
 export default function SectionErrors (props) {
     return(
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }} className = {props.sectionClass + " central-error-section-container"} style={{display: props.initialDisplay}}>

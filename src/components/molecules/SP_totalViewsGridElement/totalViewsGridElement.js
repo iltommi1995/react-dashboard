@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import TotalViews from '../SP_totalViews/totalViews';
 
-import './totalViewsGridElement.css'
+import './totalViewsGridElement.scss'
 
 export default function TotalViewsGridElement(props) {
     return (

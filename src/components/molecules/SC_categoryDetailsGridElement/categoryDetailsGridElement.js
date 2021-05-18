@@ -1,10 +1,10 @@
 import React from 'react'
-import Title from "../../atoms/gridElementTitle/Title"
+import GridElementTitle from "../../atoms/gridElementTitle/gridElementTitle"
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
 
-import './categoryDetailsGridElement.css'
+import './categoryDetailsGridElement.scss'
 import CategoryDetailsMostViewedTable from '../SC_categoryDetailsMostViewedTable/categoryDetailsMostViewedTable';
 
 
@@ -14,9 +14,9 @@ export default function CategoryDetailsGridElement(props) {
         <Grid item className="category-details-grid-element">
             <Paper
                 sx={{ p: 2, display: 'flex', flexDirection: 'column', height: 240 }}
-                className="paper-custom"
+                className="paper-custom prova"
             >
-                <Title children={props.category == null ? 'No category selected': `${props.category.name}`} />
+                <GridElementTitle children={props.category == null ? 'No category selected': `${props.category.name}`} />
                 <div className="category-details-container">
                     <div className="category-details-info-box">
                             <div>Pages: {props.category == null ? "no category selected" : props.category.pageNumber}</div>
@@ -24,7 +24,7 @@ export default function CategoryDetailsGridElement(props) {
                     </div>
 
                     <div className="category-details-most-viewed">
-                        <h3 className="category-details-table-title">Most viewed pages</h3>
+                        <h4 className="category-details-table-title">Most viewed pages</h4>
                         <CategoryDetailsMostViewedTable pagesData={props.category.pages}/>
                     </div>
                 </div>

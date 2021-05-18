@@ -8,7 +8,7 @@ import ErrorIcon from '@material-ui/icons/Error';
 export default function NavErrorsListItems(props) {
   return (
     <div>
-      <ListSubheader inset style={{width:"fit-content"}}>Errors Panel</ListSubheader>
+      <ListSubheader inset style={{width:"fit-content"}} className="nav-menu-subtitles">Errors</ListSubheader>
       <ListItem button onClick={() => {
         document.getElementsByClassName("englishSection")[0].style.display = "none";
         document.getElementsByClassName("globalSection")[0].style.display = "none";

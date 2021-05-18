@@ -1,0 +1,103 @@
+@import "./utils/variables.scss";
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* TYPOGRAPHY */
+
+/* Sections titles */
+h2 {
+  color: $text-color!important;
+  font-family: $sec-font!important;
+}
+
+/* Grid elements titles */
+h3 {
+  color: $sec-color!important;
+  font-family: $sec-font!important;
+}
+
+/* h4 elements */
+h4 {
+  color: $text-color!important;
+  font-family: $sec-font!important;
+}
+
+/* Text paragraphs */
+
+p {
+  color: $text-color!important;
+  font-family: $pri-font!important;
+}
+
+/* Span */
+
+p > span {
+  color: $text-color!important;
+  font-family: $pri-font!important;
+}
+
+/* Lists */
+
+ul li {
+  color: $text-color!important;
+  font-family: $pri-font!important;
+}
+
+a {
+  text-decoration: none;
+  font-family: $pri-font!important;
+  color: $third-color!important;
+  transition: all 0.5s;
+  &:hover {
+    color: $sec-color!important;
+  } 
+  &:visited {
+    color: $sec-color!important;
+  }
+}
+
+/* Hyperlinks */
+
+
+
+
+/* Generali */
+
+.paper-custom {
+padding: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+}
+
+body::-webkit-scrollbar {
+width: 6px!important;
+height: 6px!important;
+}
+
+body::-webkit-scrollbar-thumb {
+background: #9e9e9e!important;
+border-radius: 15px!important;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+background: #787878!important;
+}
+
+body::-webkit-scrollbar-track{
+background: #ffffff!important;
+border-radius: 10px!important;
+box-shadow: inset 7px 10px 12px #f0f0f0!important;
+}
+

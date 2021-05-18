@@ -1,10 +1,10 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Title from '../../atoms/gridElementTitle/Title';
+import GridElementTitle from '../../atoms/gridElementTitle/gridElementTitle';
 
 
-import './mostViewedGridElement.css'
+import './mostViewedGridElement.scss'
 import MostViewedTable from '../SP_mostViewedTable/mostViewedTable';
 
 
@@ -17,7 +17,7 @@ export default function MostViewedGridElement(props) {
                 sx={{ p: 2, display: 'flex', flexDirection: 'column' }}
                 className="most-viewed-paper paper-custom"
             >
-                <Title children="Most viewed pages" />
+                <GridElementTitle children="Most viewed pages" />
                 <MostViewedTable data={props.data} />
             </Paper>
         </Grid>

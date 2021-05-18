@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Importo il font
-import 'fontsource-roboto'
+import '@fontsource/el-messiri'
+import '@fontsource/libre-baskerville'
 
 ReactDOM.render(
   <React.StrictMode>

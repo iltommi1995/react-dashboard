@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid';
 
 
-import './errorsTableGridElement.css'
+import './errorsTableGridElement.scss'
 import ErrorsTable from '../SE_errorsTable/errorsTable';
 
 

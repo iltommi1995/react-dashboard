@@ -8,7 +8,7 @@ import CategoryIcon from '@material-ui/icons/Category';
 export default function NavCategoriesListItems(props) {
   return (
     <div>
-      <ListSubheader inset style={{width:"fit-content"}}>Categories Panel</ListSubheader>
+      <ListSubheader inset style={{width:"fit-content"}} className="nav-menu-subtitles">Categories</ListSubheader>
       <ListItem button onClick={() => {
         document.getElementsByClassName("englishSection")[0].style.display = "none";
         document.getElementsByClassName("globalSection")[0].style.display = "none";

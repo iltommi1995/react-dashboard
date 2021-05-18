@@ -1,0 +1,25 @@
+@import "./../../../utils/variables.scss";
+
+.nav-drawer-custom {
+    height: 100%;
+
+    .toolbar-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 8px;
+        height: 64px;
+
+        @media screen and (min-width: 600px) {
+            height: 64px;
+        }
+
+        @media screen and (max-width: 599px) {
+            height: 56px;
+        }
+
+        .toolbar-icon-svg {
+            color: $pri-color;
+        }
+    }
+}

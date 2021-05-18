@@ -9,7 +9,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TablePagination from '@material-ui/core/TablePagination';
 
-import './errorsTable.css'
+import './errorsTable.scss'
 
 const columns = [
     { id: 'title', label: 'Page\u00a0title' },
@@ -32,7 +32,7 @@ export default function ErrorsTable(props) {
     return(
         <Paper
                 sx={{ p: 2, display: 'flex', flexDirection: 'column', height: 240 }}
-                className="table-container"
+                className="errors-table-paper"
             >
                 <TableContainer className="errors-table-container">
                     <Table stickyHeader aria-label="sticky table">

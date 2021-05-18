@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 // Importo la dashboard
 import Dashboard from './components/pages/Dashboard'

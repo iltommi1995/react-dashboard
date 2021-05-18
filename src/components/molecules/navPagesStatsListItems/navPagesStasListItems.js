@@ -8,7 +8,7 @@ import { Language } from '@material-ui/icons';
 export default function navPagesStasListItems(props) {
   return (
     <div>
-      <ListSubheader inset style={{width:"fit-content"}}>Errors Panel</ListSubheader>
+      <ListSubheader inset style={{width:"fit-content"}} className="nav-menu-subtitles">Page stats</ListSubheader>
       <ListItem button onClick={() => {
         document.getElementsByClassName("globalSection")[0].style.display = "";
         document.getElementsByClassName("italianSection")[0].style.display = "none";

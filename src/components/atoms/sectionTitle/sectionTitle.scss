@@ -1,0 +1,10 @@
+@import "../../../utils/variables.scss";
+
+.section-title-grid-element {
+    grid-area: 1/1/2/13;
+
+    .section-title-h2 {
+        margin: 0;
+        
+    }
+}

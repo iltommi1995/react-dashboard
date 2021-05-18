@@ -6,7 +6,7 @@ import Copyright from '../../molecules/copyright/copyright'
 import SectionTitle from '../../atoms/sectionTitle/sectionTitle';
 import PageNumberChartGridElement from '../../molecules/SP_pageNumberChartGridElement/pageNumberChartGridElement';
 import TotalViewsGridElement from '../../molecules/SP_totalViewsGridElement/totalViewsGridElement';
-import "./sectionPageStats.css"
+import "./sectionPageStats.scss"
 import MostViewedGridElement from '../../molecules/SP_mostViewedGridElement/mostViewedGridElement';
 
 export default function SectionPageStats(props) {

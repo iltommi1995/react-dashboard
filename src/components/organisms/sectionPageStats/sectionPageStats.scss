@@ -1,0 +1,16 @@
+.central-section-container {
+    height: 100%!important;
+
+    .grid-container-custom {
+        display: grid!important;
+        height: 100%!important;
+        grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+
+        @media screen and (max-width: 900px) {
+            height: fit-content;
+            grid-template: repeat(12, 50px) / repeat(12, 1fr);
+            grid-auto-rows: 50px;
+            overflow-y: scroll;
+        }
+    }
+}

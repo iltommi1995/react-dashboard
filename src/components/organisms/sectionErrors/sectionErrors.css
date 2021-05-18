@@ -1,9 +1,0 @@
-.central-error-section-container {
-    height: 100%!important;
-}
-
-.grid-container-error-custom {
-    display: grid!important;
-    height: 100%!important;
-    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
-}

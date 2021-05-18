@@ -7,7 +7,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
-import './mostViewedTable.css'
+import './mostViewedTable.scss'
 
 const columns = [
     { id:'id', label: 'N.'},

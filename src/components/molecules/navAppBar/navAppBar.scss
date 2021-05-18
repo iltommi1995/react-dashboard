@@ -1,0 +1,10 @@
+@import "../../../utils/variables.scss";
+
+.toolbar {
+    padding-right: 24;
+}
+
+.MuiAppBar-colorPrimary {
+    background-color: $pri-color!important;
+    color: $fourth-color!important
+}

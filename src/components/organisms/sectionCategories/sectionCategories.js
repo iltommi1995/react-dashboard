@@ -16,7 +16,7 @@ export default function SectionCategories(props) {
 
   
   const [category, setCategory] = React.useState(props.categoriesData[0]);
-  const [search, setSearch] = React.useState("");
+  const [search, setSearch] = React.useState(null);
 
   const setSearchValue = (val) => {
     setSearch(val)
@@ -30,7 +30,7 @@ export default function SectionCategories(props) {
 
   const selectCategory = (newCategory) => {
     if(newCategory != null) {
-      setSearch("")
+      setSearch(null)
       setCategory(newCategory)
     }
   }

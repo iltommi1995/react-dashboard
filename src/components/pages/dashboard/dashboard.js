@@ -2,8 +2,8 @@ import * as React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Box from '@material-ui/core/Box';
 import "./dashboard.scss"
-import CentralContent from '../organisms/centralContent/centralContent';
-import NavBar from '../organisms/navBar/navBar';
+import CentralContent from '../../organisms/centralContent/centralContent';
+import NavBar from '../../organisms/navBar/navBar';
 
 
 export default function Dashboard() {

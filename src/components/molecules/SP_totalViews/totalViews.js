@@ -19,11 +19,14 @@ export default function TotalViews(props) {
   return (
     <React.Fragment>
       <GridElementTitle>Total views</GridElementTitle>
-      <Typography component="h5" className="total-views">
-        {props.data.views} <br/>
-        <span className="total-views-pages">on {props.data.pages} pages</span> <br/>
-        <span className="total-views-pages">on {createDateToday()}</span>
-      </Typography>
+      <div className="total-views-container">
+        <Typography component="h5" className="total-views">
+          {props.data.views} <br />
+          <span className="total-views-pages">on {props.data.pages} pages</span> <br />
+          <span className="total-views-pages">on {createDateToday()}</span>
+        </Typography>
+
+      </div>
     </React.Fragment>
   );
 }

@@ -1,13 +1,15 @@
+@import "../../../utils/variables.scss";
+
 .total-views-grid-element {
     grid-area: 2/10/6/13;
     max-width: 100%!important;
     height: 100%;
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: $laptop) {
         grid-area: 2/9/6/13;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: $tablet) {
         grid-area: 10/1/13/13;
     }
 

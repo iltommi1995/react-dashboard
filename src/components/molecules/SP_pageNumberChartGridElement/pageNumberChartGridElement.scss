@@ -1,12 +1,14 @@
+@import "../../../utils/variables.scss";
+
 .chart-grid-element {
     grid-area: 2/1/12/9;
     max-width: 100%!important;
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: $laptop) {
         grid-area: 2/1/12/9;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: $tablet) {
         grid-area: 2/1/10/13;
     }
 

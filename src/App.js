@@ -1,7 +1,7 @@
 import './App.scss';
 
 // Importo la dashboard
-import Dashboard from './components/pages/Dashboard'
+import Dashboard from './components/pages/dashboard/dashboard'
 
 function App() {
   return (

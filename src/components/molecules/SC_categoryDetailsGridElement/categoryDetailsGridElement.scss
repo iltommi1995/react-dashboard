@@ -1,11 +1,13 @@
+@import "../../../utils/variables.scss";
+
 .category-details-grid-element {
     grid-area: 2 / 6 / 12 / 13;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: $tablet) {
         grid-area: 2 / 7 / 12 / 13;
     }
     
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: $mobile) {
         grid-area: 12 / 1 / 22 / 13;
     }
 

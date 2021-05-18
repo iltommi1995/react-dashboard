@@ -20,7 +20,7 @@ export default function NavCategoriesListItems(props) {
         }
       }}>
         <ListItemIcon>
-          <CategoryIcon />
+          <CategoryIcon className="menu-icon"  />
         </ListItemIcon>
         <ListItemText primary="Categories stats" />
       </ListItem>

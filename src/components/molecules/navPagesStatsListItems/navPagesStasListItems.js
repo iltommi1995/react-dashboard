@@ -20,7 +20,7 @@ export default function navPagesStasListItems(props) {
         }
       }}>
         <ListItemIcon>
-          <Language />
+          <Language className="menu-icon" />
         </ListItemIcon>
         <ListItemText primary="Global" />
       </ListItem>

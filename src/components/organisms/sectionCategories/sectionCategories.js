@@ -16,10 +16,23 @@ export default function SectionCategories(props) {
 
   
   const [category, setCategory] = React.useState(props.categoriesData[0]);
+  const [search, setSearch] = React.useState("");
+
+  const setSearchValue = (val) => {
+    setSearch(val)
+  }
+
+  const selectCateogrySearchBar = (newCategory) => {
+    if(newCategory != null) {
+      setCategory(newCategory)
+    }
+  }
 
   const selectCategory = (newCategory) => {
-    if(newCategory != null)
+    if(newCategory != null) {
+      setSearch("")
       setCategory(newCategory)
+    }
   }
 
   return (
@@ -31,7 +44,7 @@ export default function SectionCategories(props) {
         <SectionTitle sectionName={props.sectionName} />
 
         {/* Barra di ricerca */}
-        <SearchBarGridElement selectCategory={selectCategory} data={props.categoriesData} />
+        <SearchBarGridElement selectCategory={selectCateogrySearchBar} data={props.categoriesData} search={search} setSearch={setSearchValue} />
 
         {/* Categorie più viste */}
         <MostViewedCategoriesGridElement selectCategory={selectCategory} data={props.categoriesData} />

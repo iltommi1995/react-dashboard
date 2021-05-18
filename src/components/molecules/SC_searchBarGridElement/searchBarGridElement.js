@@ -59,9 +59,9 @@ export default function SearchBarGridElement(props) {
         <Grid item className="search-bar-grid-element">
             <Autocomplete
                 className="search-bar-categories"
-                value={value}
+                value={props.search}
                 onChange={(event, newValue) => {
-                    setValue(newValue);
+                    props.setSearch(newValue);
                     props.selectCategory(newValue);
                 }}
                 inputValue={inputValue}

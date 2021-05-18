@@ -20,7 +20,7 @@ export default function NavErrorsListItems(props) {
         }
       }}>
         <ListItemIcon>
-          <ErrorIcon />
+          <ErrorIcon className="menu-icon"  />
         </ListItemIcon>
         <ListItemText primary="Errors in pages" />
       </ListItem>

@@ -14,6 +14,13 @@ body {
 
 /* TYPOGRAPHY */
 
+/* Dashboard title */
+h1 {
+  font-family: $sec-font!important;
+  font-size: 2.3em!important;
+  margin: 0px!important;
+}
+
 /* Sections titles */
 h2 {
   color: $text-color!important;

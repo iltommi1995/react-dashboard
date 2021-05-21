@@ -68,13 +68,15 @@ ul li {
 a {
   text-decoration: none;
   font-family: $pri-font!important;
-  color: $third-color!important;
+  color: $link-color!important;
+  font-weight: normal;
   transition: all 0.5s;
   &:hover {
-    color: $sec-color!important;
+    color: $link-hover-color!important;
+    font-weight: bold;
   } 
   &:visited {
-    color: $sec-color!important;
+    color: $link-visited-color!important;
   }
 }
 
